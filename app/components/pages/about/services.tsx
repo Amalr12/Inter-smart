@@ -72,7 +72,7 @@ export default function AboutServices() {
                 aria-expanded={isOpen}
                 aria-label={isOpen ? "Close service details" : "Open service details"}
                 onClick={() => setOpenIndex(isOpen ? null : index)}
-                className="flex items-center justify-center text-[30px] text-[#182434] transition hover:text-blue-600"
+                className="flex items-center cursor-pointer justify-center text-[30px] text-[#182434] transition hover:text-blue-600"
               >
                 {isOpen ? <IoIosArrowDown /> : <IoIosArrowForward />}
               </button>
