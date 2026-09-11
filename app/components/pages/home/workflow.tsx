@@ -96,7 +96,7 @@ export default function Workflow() {
         <div className="mt-8 flex items-center justify-end gap-3">
           <button
             onClick={prevSlide}
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-white/70"
+            className="flex h-8 w-8 items-center cursor-pointer justify-center rounded-full border border-white/70"
           >
             ←
           </button>
@@ -107,7 +107,7 @@ export default function Workflow() {
 
           <button
             onClick={nextSlide}
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-white/70"
+            className="flex h-8 w-8 items-center cursor-pointer justify-center rounded-full border border-white/70"
           >
             →
           </button>

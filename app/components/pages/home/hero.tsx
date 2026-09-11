@@ -25,7 +25,7 @@ export default function Hero() {
             One of the leading AI development companies in India with remarkable expertise in artificial intelligence solutions. Our forte in AI technologies spans diverse verticals like machine learning (ML).....
           </p>
 
-          <button className={`rounded-3xl bg-white px-6 py-3 text-sm font-semibold uppercase text-[#182434] transition hover:bg-[#182434] hover:text-white hover:outline hover:outline-white md:px-8 md:py-3 md:text-base ${poppins.className}`}>
+          <button className={`rounded-3xl bg-white px-6 py-3 cursor-pointer text-sm font-semibold uppercase text-[#182434] transition hover:bg-[#182434] hover:text-white hover:outline hover:outline-white md:px-8 md:py-3 md:text-base ${poppins.className}`}>
             Reach us
           </button>
         </div>
