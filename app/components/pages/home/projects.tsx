@@ -1,19 +1,12 @@
-import { Poppins } from "next/font/google";
 import Image from "next/image";
-
-const poppins = Poppins({
-  variable: "--font-poppins",
-  weight: ["300", "400", "500", "600", "700", "800"],
-  subsets: ["latin"],
-});
 
 export default function HomeProjects() {
   return (
     <section className="py-10 md:py-16">
       <div className="md:px-10 px-5">
         <div className="mb-8 text-center">
-          <h1 className={`text-[25px] md:text-[35px] font-medium ${poppins.className}`}>Our Recent AI Projects</h1>
-          <p className={`text-[13px] md:text-[18px] font-normal ${poppins.className}`}>As one of India's leading AI development companies, SysAlly offers the following services to businesses.</p>
+          <h1 className="text-[25px] md:text-[35px] font-medium">Our Recent AI Projects</h1>
+          <p className="text-[13px] md:text-[18px] font-normal">As one of India's leading AI development companies, SysAlly offers the following services to businesses.</p>
           <div className="h-1 w-30 bg-blue-500 mx-auto my-4"></div>
         </div>
 
@@ -27,7 +20,7 @@ export default function HomeProjects() {
         </div>
 
         <div className="text-center my-10">
-          <button className={`bg-[#182434] hover:bg-white hover:text-[#182434] hover:border hover:border-[#182434] text-white font-normal md:text-[16px] text-[12px] py-2 px-6 rounded cursor-pointer rounded-3xl transition ${poppins.className}`}>
+          <button className="bg-[#182434] hover:bg-white hover:text-[#182434] hover:border hover:border-[#182434] text-white font-normal md:text-[16px] text-[12px] py-2 px-6 rounded cursor-pointer rounded-3xl transition">
             View all projects
           </button>
         </div>

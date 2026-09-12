@@ -1,14 +1,7 @@
 "use client";
 
-import { Poppins } from "next/font/google";
 import { useEffect, useRef, useState } from "react";
 import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
-
-const poppins = Poppins({
-  variable: "--font-poppins",
-  weight: ["300", "400", "500", "600", "700", "800"],
-  subsets: ["latin"],
-});
 
 const services = [
   {
@@ -65,7 +58,7 @@ export default function AboutServices() {
             className="bg-[#F6F6F6] md:p-5 font-medium md:text-[22px] text-[16px] md:m-5"
           >
             <div className="flex items-center justify-between gap-4 p-5">
-              <h1 className={`${poppins.className}`}>{service.title}</h1>
+              <h1>{service.title}</h1>
 
               <button
                 type="button"
@@ -79,7 +72,7 @@ export default function AboutServices() {
             </div>
 
             {isOpen && (
-              <p className={`px-5 text-[12px] md:text-[15px] font-normal space-y-2 text-justify flex ${poppins.className}`}>
+              <p className="px-5 text-[12px] md:text-[15px] font-normal space-y-2 text-justify flex">
                 {service.description}
               </p>
             )}
