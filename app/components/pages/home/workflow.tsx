@@ -3,13 +3,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import { Poppins } from "next/font/google";
-
-const poppins = Poppins({
-  variable: "--font-poppins",
-  weight: ["300", "400", "500", "600", "700", "800"],
-  subsets: ["latin"],
-});
 
 const steps = [
   {
@@ -77,7 +70,7 @@ export default function Workflow() {
   const step = steps[current];
 
   return (
-    <section className={`bg-[#182434] px-6 py-20 text-white ${poppins.className}`}>
+    <section className="bg-[#182434] px-6 py-20 text-white">
       <div className="mx-auto max-w-6xl">
 
         <div className="mx-auto max-w-2xl text-center">

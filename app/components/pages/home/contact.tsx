@@ -1,14 +1,7 @@
-import { Poppins } from "next/font/google";
-
-const poppins = Poppins({
-  variable: "--font-poppins",
-  weight: ["300", "400", "500", "600", "700", "800"],
-  subsets: ["latin"],
-});
 export default function HomeContact() {
   return (
     
-   <div className={`bg-[#C9D6D6]  ${poppins.className} md:px-15 px-5`}>
+   <div className="bg-[#C9D6D6] md:px-15 px-5">
        <div className="md:px-10 py-20 grid md:grid-cols-2 grid-cols-1 gap-4  ">
        <div className=" pe-5  text-center">
        <h1  className=" flex text-justify font-semibold text-[#182434] md:text-[38px] text-[17px]   pe-5 md:mt-10">Let’s talk about how digital initiatives can transform your business</h1>

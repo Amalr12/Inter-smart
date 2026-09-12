@@ -1,20 +1,14 @@
-import { Poppins } from "next/font/google";
 import { FaFacebookSquare } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import Link from "next/link";
 
-const poppins = Poppins({
-  variable: "--font-poppins",
-  weight: ["300", "400", "500", "600", "700", "800"],
-  subsets: ["latin"],
-});
 export default function Footer() {
     return (
 
             <div>
- <div className={`    grid md:grid-cols-3 grid-cols-1 gap-4 md:px-20 px-5 py-10 bg-[#182434] text-[#F1F1F1] ${poppins.className}`}>
+ <div className="grid md:grid-cols-3 grid-cols-1 gap-4 md:px-20 px-5 py-10 bg-[#182434] text-[#F1F1F1]">
             <div className="space-y-10">
                 <h1 className="md:text-[24px] text-[18px] font-medium">Services</h1>
                   <div className="md:text-[16px]  text-[13px] space-y-10">
@@ -66,7 +60,7 @@ export default function Footer() {
                  </div>
             </div>
         </div>
-        <div className={`md:px-20 px-5 py-10 flex md:justify-between text-center bg-[#182434] md:text-[16px] text-[12px] text-[#F1F1F1] ${poppins.className}`}>
+        <div className="md:px-20 px-5 py-10 flex md:justify-between text-center bg-[#182434] md:text-[16px] text-[12px] text-[#F1F1F1]">
         <p>© 2026 Intersmart Ltd. All rights reserved.</p>
         <p>Privacy Policy | GDPR Policy | Terms of Service</p>
         </div>
