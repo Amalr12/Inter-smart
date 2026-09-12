@@ -81,11 +81,11 @@ export default function Workflow() {
       <div className="mx-auto max-w-6xl">
 
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-semibold">
+          <h2 className="md:text-2xl text-xl font-semibold">
             Our AI Development Process
           </h2>
 
-          <p className="mt-4 text-sm leading-6 text-gray-300">
+          <p className="mt-4 md:text-sm text-xs leading-6 text-gray-300">
             Developing an AI solution according to your needs involves a
             structured approach to assure its success and effectiveness.
           </p>
@@ -136,7 +136,7 @@ export default function Workflow() {
               <button
                 key={item.id}
                 onClick={() => setCurrent(index)}
-                className={`text-left text-sm transition ${
+                className={`text-left md:text-sm text-xs transition ${
                   current === index
                     ? "text-white"
                     : "text-gray-300"
