@@ -18,11 +18,9 @@ export default function Footer() {
             <div className="space-y-10">
                 <h1 className="md:text-[24px] text-[18px] font-medium">Services</h1>
                   <div className="md:text-[16px]  text-[13px] space-y-10">
-                <p >Hyperparameter model tuning
-
-</p>
-                <p>PoC of AI Solutions</p>
-                <p>AI Model Optimization</p>
+                <p className="cursor-pointer">Hyperparameter model tuning</p>
+                <p className="cursor-pointer">PoC of AI Solutions</p>
+                <p className="cursor-pointer">AI Model Optimization</p>
                   </div>
                 
                

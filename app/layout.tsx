@@ -3,8 +3,7 @@ import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/ui/navbar";
 import Footer from "./components/ui/footer";
-
-
+import AosProvider from "./components/ui/aos-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,10 +32,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col  ">
-        <Navbar />
-        {children}
-        <Footer />
+      <body className="min-h-full flex flex-col">
+        <AosProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </AosProvider>
       </body>
     </html>
   );
