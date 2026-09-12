@@ -27,7 +27,7 @@ export default function HomeProjects() {
         </div>
 
         <div className="text-center my-10">
-          <button className={`bg-[#182434] hover:bg-white hover:text-[#182434] hover:border hover:border-[#182434] text-white font-normal md:text-[16px] py-2 px-6 rounded cursor-pointer rounded-3xl transition ${poppins.className}`}>
+          <button className={`bg-[#182434] hover:bg-white hover:text-[#182434] hover:border hover:border-[#182434] text-white font-normal md:text-[16px] text-[12px] py-2 px-6 rounded cursor-pointer rounded-3xl transition ${poppins.className}`}>
             View all projects
           </button>
         </div>

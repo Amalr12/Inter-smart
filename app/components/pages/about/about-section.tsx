@@ -29,7 +29,7 @@ export default function About() {
                 </div>
             </div>
             <div className="text-center my-10">
-                <button className={`bg-[#182434] hover:bg-white hover:text-[#182434] hover:border hover:border-[#182434] cursor-pointer rounded-3xl text-white py-2 px-6    ${poppins.className}`}>
+                <button className={`bg-[#182434] hover:bg-white hover:text-[#182434] hover:border hover:border-[#182434] cursor-pointer rounded-3xl text-white py-2 px-6  md:text-[16px] text-[12px]  ${poppins.className}`}>
                     View all services
                 </button>
             </div>
